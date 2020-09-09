@@ -72,7 +72,7 @@ class AuthController extends Controller
 
 
         if(!$user){
-            return response()->json(["success"=>false, "message" => "Registration succeeded"],500);
+            return response()->json(["success"=>false, "message" => "Registration fail"],500);
 //            return response(json_encode(["success"=>false, "message" => "Registration failed"]));
         }
 
